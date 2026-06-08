@@ -48,7 +48,7 @@ I am a first-year Web Development student who is interested in learning how to b
 ## Contact Information
 
 * Email: (owenezekiel.anchola@lorma.edu)
-* GitHub: https://github.com/owen_co_pal
+* GitHub: owenezekielanchola-ops
 
 ## Fun Fact
 
