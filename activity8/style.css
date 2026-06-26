@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.challenge-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: #4e73df;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.role {
+  color: #888;
+  font-size: 13px;
+}
+
+.pricing-row {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.pricing-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.tier {
+  color: #888;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.price {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 13px;
+  font-weight: normal;
+  color: #888;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 700px;
+  padding: 8px 15px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+
+.btn {
+  background: #4e73df;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.comment-block {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  max-width: 480px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.comment-avatar {
+  background-color: #ff6b6b;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.comment-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.comment-name {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.comment-text {
+  color: #555;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.tag-list {
+  max-width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tag {
+  color: #4e73df;
+  font-size: 13px;
+  font-weight: bold;
+}
