@@ -233,3 +233,30 @@ body {
   font-weight: 500;
 }
 
+/* Checkpoint 1:
+   The navbar hierarchy really highlighted how CSS properties only target immediate children. 
+   While the header layout easily separated the logo and nav wrapper, the individual links 
+   remained stubbornly stacked inside their own nested list. I had to explicitly apply a second 
+   flex rule to that inner container because properties do not trickle down to grandchildren.
+*/
+
+/* Checkpoint 2:
+   Even though the info cards already stacked vertically by default, converting their panel into 
+   a flex column unlocked the gap property. This allowed me to easily apply uniform spacing from 
+   the parent container level. It completely avoids the messy workaround of writing manual bottom 
+   margins and clearing them on the final item.
+*/
+
+/* Checkpoint 3:
+   Handling irregular multi-row column spans is incredibly fragile with flexbox because it only 
+   calculates layout line by line. You are forced to juggle rigid percentage widths that break 
+   easily if you rearrange components or swap orientations later. CSS Grid solves this elegantly by 
+   letting you dictate a strict structural blueprint where elements simply span the tracks they need.
+*/
+
+/* Checkpoint 4:
+   The contact section elements are already block-level structures that naturally pile vertically on 
+   top of each other by default. Forcing a structural flexbox rule onto them would have been completely 
+   redundant since no axis realignment was needed. A simple text alignment property did all the heavy 
+   lifting to achieve the centered appearance.
+*/

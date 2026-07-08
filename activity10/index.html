@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Maya Cruz — Frontend Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="navbar">
     <p class="navbar__logo">Maya Cruz</p>
+    <button class="navbar__toggle" aria-label="Toggle menu">☰</button>
     <nav class="navbar__links">
       <ul>
         <li><a href="#about">About</a></li>
@@ -87,5 +88,13 @@
     </ul>
   </footer>
 
+  <script>
+    const toggleBtn = document.querySelector('.navbar__toggle');
+    const navLinks = document.querySelector('.navbar__links');
+
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('is-open');
+    });
+  </script>
 </body>
 </html>
